@@ -10,7 +10,7 @@ const displayDrinks = async ({ drinks }) => {
   hideLoading();
   // affiche les cocktails
   if (drinks === null) {
-    title.innerHTML = `Please enter a valid Input`;
+    title.innerHTML = `Sorry, No Drinks Matched Your Search`;
     drinkSection.innerHTML = "";
   } else {
     title.innerHTML = "";
